@@ -41,14 +41,14 @@ ProjectFolder
 ├── project_name (can ignore this)
 ├── src
 |   ├── main
-        ├──package_name (the name of the package from the Springboot initialiser)
-            ├─-Entity (based on what you name ur entity)
-                ├──Entity
-                ├──EntityConfig
-                ├──EntityController (Determine API routes; which uses specific functions from the Service)
-                ├──EntityRepository (This provides basic crud operations which can be used by the Service; most of the essentials are inherited)
-                ├──EntityService (Basic CRUD operations which calls the methods from the Repository)
-                ├──DemoApplication (this name may vary; bascially like your main.js in JS frameworks)
+|   |   ├── package_name (the name of the package from the Springboot initialiser)
+|   |       ├─- Entity (based on what you name ur entity)
+|   |           ├── Entity
+|   |           ├── EntityConfig
+|   |           ├── EntityController (Determine API routes; which uses specific functions from the Service)
+|   |           |── EntityRepository (This provides basic crud operations which can be used by the Service; most of the essentials are inherited)
+|   |           ├── EntityService (Basic CRUD operations which calls the methods from the Repository)
+|   |           ├──D emoApplication (this name may vary; bascially like your main.js in JS frameworks)
 |   ├── test (can ignore this)
 ├── target
 |
